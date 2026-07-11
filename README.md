@@ -1,67 +1,116 @@
 # 🛒 KovaiMart Supermarket Sales Analytics
 
-## 📌 Project Information
+## 📌 Project Overview
 
-- **Project ID:** BA-2026-001
-- **Project Name:** KovaiMart Supermarket Sales Analytics
-- **Client:** KovaiMart Retail Pvt. Ltd.
-- **Department:** Sales & Operations
-- **Stakeholder:** Regional Sales Manager
-- **Role:** Business Analyst
+The **KovaiMart Supermarket Sales Analytics** project is a Business Analytics consulting assignment designed to analyze supermarket sales data and provide actionable business insights. The objective is to help management understand sales performance, profitability, customer purchasing behavior, and branch performance through an interactive Excel dashboard.
 
 ---
 
-# 📖 Business Background
+## 🎯 Business Objective
 
-KovaiMart Retail Pvt. Ltd. operates multiple supermarket branches across Coimbatore and nearby districts. Although overall sales have increased, management observed significant variations in profitability across stores and product categories. Some products generate high revenue but low profit, while certain branches consistently underperform.
+Analyze the supermarket sales data to:
 
-As a Business Analyst, the objective of this project was to analyze the supermarket sales data, identify business problems, generate meaningful insights, and provide data-driven recommendations to improve overall business performance.
-
----
-
-# 🎯 Business Objectives
-
-- Analyze sales trends across stores and product categories.
-- Evaluate profitability by product and category.
-- Measure branch performance.
-- Understand customer purchasing behaviour.
-- Analyze the impact of discounts on profit margins.
-- Identify preferred payment methods.
-- Evaluate product return patterns.
-- Identify monthly sales trends.
-- Provide actionable recommendations to improve profitability.
+* Identify top-performing stores based on revenue and profit.
+* Evaluate product and category profitability.
+* Measure branch performance.
+* Analyze promotional campaign effectiveness.
+* Support management with data-driven recommendations.
 
 ---
 
-# ❓ Business Questions
+## 👨‍💼 Client Information
 
-- Which stores generate the highest revenue and profit?
-- Which products generate high sales but low profit?
-- Which categories contribute most to profitability?
-- Which branches require immediate management attention?
-- How do discounts affect profit margins?
-- Which payment methods are most preferred by customers?
-- Which products have the highest return rate?
-- What seasonal or monthly sales trends can be observed?
-- What recommendations can improve overall profitability?
+* **Client:** KovaiMart Retail Pvt. Ltd.
+* **Department:** Sales & Operations
+* **Stakeholder:** Regional Sales Manager
+* **Role:** Business Analyst
 
 ---
 
-# 🛠 Tools & Skills Used
+## 🛠️ Tools Used
 
-- Microsoft Excel
-- Data Cleaning
-- Pivot Tables
-- Pivot Charts
-- Dashboard Design
-- Business Analysis
-- GitHub
+* Microsoft Excel
+* Pivot Tables
+* Pivot Charts
+* Slicers
+* Conditional Formatting
+* Excel Formulas
 
 ---
 
-# 📂 Project Structure
+## 📂 Dataset
 
-```
+The project uses five business datasets:
+
+* **Sales Transactions** – Sales, revenue, profit, customers, payment methods, and promotions.
+* **Product Master** – Product details, categories, suppliers, pricing, and profit margins.
+* **Store Master** – Store information including location, manager, and operational details.
+* **Inventory** – Stock levels, inventory status, and reorder information.
+* **Promotions** – Campaign details, discounts, and marketing activities.
+
+---
+
+## 📊 Dashboard Features
+
+### KPI Cards
+
+* Total Revenue
+* Total Profit
+* Total Orders
+* Total Quantity Sold
+* Average Customer Rating
+
+### Business Analysis
+
+* Store Performance Analysis
+* Product Performance Analysis
+* Category Profitability Analysis
+* Branch Performance Analysis
+* Promotion Performance Analysis
+
+### Interactive Filters
+
+* Month
+* Store
+* Category
+* Payment Mode
+* Promotion
+
+---
+
+## 📈 Business Questions Answered
+
+1. Which stores generate the highest revenue and profit?
+2. Which products generate high sales but low profit?
+3. Which product categories contribute the most to profitability?
+4. Which branches require management attention?
+5. Which promotional campaigns perform best?
+
+---
+
+## 💡 Key Business Insights
+
+* Identified top-performing stores based on revenue and profitability.
+* Compared product sales with profit to identify low-margin products.
+* Evaluated category-wise profitability to support inventory and pricing decisions.
+* Assessed branch performance to identify improvement opportunities.
+* Measured the effectiveness of promotional campaigns on sales performance.
+
+---
+
+## ✅ Business Recommendations
+
+* Focus inventory investment on high-profit product categories.
+* Review pricing and supplier costs for products with high sales but low profit.
+* Improve operational performance in underperforming branches.
+* Plan promotional campaigns around high-demand periods.
+* Continuously monitor KPIs using the interactive dashboard.
+
+---
+
+## 📁 Repository Structure
+
+```text
 KovaiMart-Supermarket-Sales-Analytics/
 │
 ├── data/
@@ -76,96 +125,34 @@ KovaiMart-Supermarket-Sales-Analytics/
 │
 ├── README.md
 │
-└── requirements.txt (Optional)
+└── screenshots/
 ```
 
 ---
 
-# 📊 Project Deliverables
+## 📷 Dashboard Preview
 
-- ✅ Cleaned Dataset
-- ✅ Analysis Workbook
-- ✅ Interactive Executive Dashboard
-- ✅ Business Insights
-- ✅ Business Recommendations
-- ✅ 5–7 Minute Stakeholder Presentation
-- ✅ GitHub Repository
+> Add your Excel dashboard screenshot inside the **screenshots** folder and update this section with the image.
 
 ---
 
-# 📈 Dashboard Features
+## 🚀 Project Outcome
 
-The interactive dashboard includes:
+This project demonstrates practical Business Analyst skills, including:
 
-- Total Revenue KPI
-- Total Profit KPI
-- Total Orders KPI
-- Profit Margin KPI
-- Total Returns KPI
-- Store Performance Analysis
-- Product Performance Analysis
-- Category Profitability Analysis
-- Discount Impact Analysis
-- Monthly Sales Trend
-- Customer Payment Method Analysis
-- Product Return Analysis
-- Interactive Slicers
+* Data Cleaning
+* Data Analysis
+* Excel Dashboard Development
+* Business KPI Reporting
+* Business Insight Generation
+* Decision Support through Data Visualization
 
 ---
 
-# 💡 Business Insights
-
-The analysis identifies:
-
-- Top-performing and underperforming stores
-- High-revenue but low-profit products
-- Most profitable product categories
-- Impact of discounts on profitability
-- Preferred customer payment methods
-- Products with high return rates
-- Monthly and seasonal sales trends
-
----
-
-# 📌 Business Recommendations
-
-- Optimize discount strategies to improve profit margins.
-- Increase focus on high-profit products.
-- Improve performance of underperforming branches.
-- Reduce product returns through better quality control.
-- Improve inventory planning.
-- Plan promotions based on seasonal demand.
-- Encourage digital payment methods.
-- Monitor key business KPIs regularly.
-
----
-
-# 📁 Repository Contents
-
-### Data
-- Raw Dataset
-- Cleaned Dataset
-
-### Analysis
-- Pivot Tables
-- Business Analysis
-
-### Dashboard
-- Interactive Excel Dashboard
-
-### Presentation
-- Stakeholder Presentation (5–7 minutes)
-
----
-
-# 🚀 Project Outcome
-
-This project demonstrates the complete Business Analytics workflow, including data cleaning, exploratory data analysis, business reporting, dashboard development, and strategic recommendations. The dashboard supports data-driven decision-making and helps management improve overall profitability.
-
----
-
-# 👩‍💻 Author
+## 👩‍💻 Author
 
 **Yogalakshmi M**
 
-Business Analytics | Microsoft Excel | GitHub Portfolio
+**Skills:** Excel | SQL | Power BI | Python | Data Analytics
+
+Thank you for visiting this project. Feedback and suggestions are always welcome.
