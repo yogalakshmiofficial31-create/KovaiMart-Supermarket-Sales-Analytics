@@ -1,4 +1,10 @@
 # 🛒 KovaiMart Supermarket Sales Analytics
+# Dashboard Preview
+
+## Executive Dashboard
+
+![Executive Dashboard](ScreenShot/Dasboard_View.png)
+
 
 ## 📌 Project Overview
 
